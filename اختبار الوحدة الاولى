@@ -1,0 +1,8 @@
+#رسالة ترحيب للمستخدم 
+print("Welcome to the Youtube Channel Name Generator:")
+#اطلب من المستخدم ادخال اسم الدلع الخاص به وحفظه في متغير 
+name = input("What is your nickname ?\n" )
+#اطلب من المستخم ادخال محتوى قناته على اليوتيوب وحفظه في متغير
+name_youtube = input("What is your channel about ?\n")
+#اطبع للمستخدم عمل قناته مع اسمه 
+print("You could name your channel " +("(")   +name_youtube+" with "+name+")")
